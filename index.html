@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+
+  <!-- Imagen fuera del contenedor -->
+  <img id="outside-image" src="img/rodarcito.png" alt="Imagen fuera del contenedor" />
+
+  <div class="container">
+    <div id="quiz-container">
+      <div id="question-container">
+        <div id="question-text"></div>
+        <img id="question-image" src="" />
+      </div>
+      <div id="options"></div>
+      <img id="feedback-image" src="" alt="Feedback" style="display:none;" />
+    </div>
+    <div id="result-container"></div>
+  </div>
+  <!-- Elementos de audio -->
+  <audio id="correct-sound" src="sounds/right.wav"></audio>
+  <audio id="incorrect-sound" src="sounds/wrong.wav"></audio>
+
+  <script src="brain.js"></script>
+</body>
+</html>
